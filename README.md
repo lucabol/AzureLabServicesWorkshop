@@ -10,7 +10,7 @@
 8. Check that the files are there by typing `ls`.
 9. Check that you are operating in your desired subscription by typing `Get-AzContext`.
 10. If you are not in your desired subscription type `Set-AzContext -Subscription 'SUBSCRIPTIONNAME'`
-11. Type `CreateWorkshop.ps1`. It takes a long time to run.
+11. Type `./CreateWorkshop.ps1`. It takes a long time to run.
 12. After 30min - 1hr come back. If the Console disconnected create a new one and type again `cd ~`.
-13. Type `CheckWorkshop` and be happy.
+13. Type `./CheckWorkshop` and be happy.
 

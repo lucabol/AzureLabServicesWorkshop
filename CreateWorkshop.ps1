@@ -22,6 +22,8 @@ $userName   = 'test0000'
 $password   = 'Test00000000'
 $linuxRdp   = $true
 
+Start-Transcript
+
 if(-not (Get-AzResourceGroup -ResourceGroupName $rgName -EA SilentlyContinue)) {
     New-AzResourceGroup -ResourceGroupName $rgName -Location $rgLocation | Out-null
     Write-Host "$rgname resource group didn't exist. Created it."
@@ -49,4 +51,5 @@ if($lab) {
     Write-Host "$LabName lab doesn't exist. Created it."
 }
 
+Stop-Transcript
 Remove-Module Az.LabServices -Force
