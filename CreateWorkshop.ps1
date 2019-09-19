@@ -41,7 +41,8 @@ if($lab) {
     Write-Host "$LabName lab already exist. Republished."
 } else {
     $img = $la | Get-AzLabAccountGalleryImage | Where-Object {$_.name -like $imgName}
-    if(-not $img -or $img.Count -ne 1) {Write-Error "$imgName pattern doesn't match just one image."}
+    if(-not $img) {Write-Error "$imgName pattern doesn't match any image."}
+    $img = $img | Select-Object -first 1
     Write-Host "Image $imgName found."
     
     $lab = $la `
