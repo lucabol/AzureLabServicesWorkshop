@@ -1,7 +1,5 @@
 # Here is how to create the workshop
 
-# Click on the Readme File to see all the text. Github crops it in the main view.
-
 1. Open the Azure portal in your browser: https://ms.portal.azure.com/#home
 2. Create an Azure Cloud Shell by clicking on the icon below. ![Icon to click](https://github.com/lucabol/AzureLabServicesWorkshop/blob/master/Console.JPG)
 3. Switch to Powershell mode by clicking on the icon below (if not already in Powershell mode). ![Icon to click](https://github.com/lucabol/AzureLabServicesWorkshop/blob/master/Powershell.JPG)
