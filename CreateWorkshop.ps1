@@ -24,6 +24,8 @@ $linuxRdp   = $true
 
 Start-Transcript
 
+Register-AzResourceProvider -ProviderNamespace Microsoft.LabServices
+
 if(-not (Get-AzResourceGroup -ResourceGroupName $rgName -EA SilentlyContinue)) {
     New-AzResourceGroup -ResourceGroupName $rgName -Location $rgLocation | Out-null
     Write-Host "$rgname resource group didn't exist. Created it."
