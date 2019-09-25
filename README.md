@@ -7,7 +7,7 @@
 5. It provides a code to use to activate an Azure subscription
 6. The Azure subscription has to be linked to an MSA account which you can specify on the my.visualstudio.com page
 7. Open the Azure portal in your browser: https://ms.portal.azure.com/#home
-8. Create an Azure Cloud Shell by clicking on the icon below. ![Icon to click](https://github.com/lucabol/AzureLabServicesWorkshop/blob/master/Console.JPG)
+8. Create an Azure Cloud Shell by clicking on the icon below. ![Icon to click](https://github.com/lucabol/AzureLabServicesWorkshop/blob/master/Console.JPG). If at any point the shell timeouts, just create a new one and continue.
 9. Switch to Powershell mode by clicking on the icon below (if not already in Powershell mode). ![Icon to click](https://github.com/lucabol/AzureLabServicesWorkshop/blob/master/Powershell.JPG)
 10. Download the zip file from [Here](https://github.com/lucabol/AzureLabServicesWorkshop). ![Icon to click](https://github.com/lucabol/AzureLabServicesWorkshop/blob/master/Clone.JPG)
 11. Unzip it to a known folder.
